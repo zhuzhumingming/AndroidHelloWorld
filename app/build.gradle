@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.helloworld'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.helloworld"
+        minSdk 24
+        targetSdk 34
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}
